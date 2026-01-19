@@ -170,14 +170,11 @@ footer{
     background: rgb(54, 70, 89);
     width: 100%;
     display: flex;
+    text-decoration: none;
     height: 40px;
     align-items: center;
     justify-content: center;
-    a {
-        color: white;
-        text-decoration: none;
-
-    }
+    color: white;
 
 } 
 .f-cont-1 {
