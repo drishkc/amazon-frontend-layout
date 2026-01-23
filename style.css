@@ -196,10 +196,11 @@ footer{
     }
     border-bottom: 1px solid #ddd ;
 }
-.f-cont-info-1, 
+.f-cont-info-1,
 .f-cont-info-2,
 .f-cont-info-3,
-.f-cont-info-4  {
+.f-cont-info-4 {  
+
     line-height: 25px;
     div {
         font-weight: bold;
@@ -208,6 +209,11 @@ footer{
     a:hover {
         border-bottom: 1px solid white;
     }
+}
+.f-cont-2 {
+    display: flex;
+    padding: 0 20px 0 20px;
+    height: 80px;
 }
 .nav-footer-line{
     width: 80%;
@@ -222,7 +228,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    padding:  0 5px 0 5px;
+    padding:  5px 5px 5px 5px;
 }
 .up-down {
     display: flex;
@@ -232,3 +238,20 @@ footer{
     position: absolute;
     right: 0;
 }
+.region-select {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    height: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 5%;
+}
+.flag {
+    width: 20px;
+    height: 10px;
+    padding: 2px;
+    background: black;
+}
+
+
